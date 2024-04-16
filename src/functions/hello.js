@@ -28,7 +28,7 @@ app.http("helloHttpStart", {
       input: body,
     });
 
-    context.log(`Started orchestration with ID = '${instanceId}'.`);
+    context.log(`Started orchestration with ID XXXX = '${instanceId}'.`);
 
     return client.createCheckStatusResponse(request, instanceId);
   },
